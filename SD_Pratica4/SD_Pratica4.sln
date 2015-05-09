@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SD_Pratica4", "SD_Pratica4.vcxproj", "{E1D0956D-66AF-46E1-9578-AF7F50F7C235}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "name_server", "dns_udp_broadcast\dns_usp_broadcast.vcxproj", "{E84C8CD8-A8A9-4558-9974-F6CC6E824FEC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "file_server", "file_server_udp\file_server_udp.vcxproj", "{03487AF0-6C03-42B3-B3EC-9D961D407DB2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client_udp_broadcast\client.vcxproj", "{CBFEA811-A033-4A9D-A3BE-F2EDE9C7CBB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1D0956D-66AF-46E1-9578-AF7F50F7C235}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1D0956D-66AF-46E1-9578-AF7F50F7C235}.Debug|Win32.Build.0 = Debug|Win32
+		{E1D0956D-66AF-46E1-9578-AF7F50F7C235}.Release|Win32.ActiveCfg = Release|Win32
+		{E1D0956D-66AF-46E1-9578-AF7F50F7C235}.Release|Win32.Build.0 = Release|Win32
+		{E84C8CD8-A8A9-4558-9974-F6CC6E824FEC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E84C8CD8-A8A9-4558-9974-F6CC6E824FEC}.Debug|Win32.Build.0 = Debug|Win32
+		{E84C8CD8-A8A9-4558-9974-F6CC6E824FEC}.Release|Win32.ActiveCfg = Release|Win32
+		{E84C8CD8-A8A9-4558-9974-F6CC6E824FEC}.Release|Win32.Build.0 = Release|Win32
+		{03487AF0-6C03-42B3-B3EC-9D961D407DB2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03487AF0-6C03-42B3-B3EC-9D961D407DB2}.Debug|Win32.Build.0 = Debug|Win32
+		{03487AF0-6C03-42B3-B3EC-9D961D407DB2}.Release|Win32.ActiveCfg = Release|Win32
+		{03487AF0-6C03-42B3-B3EC-9D961D407DB2}.Release|Win32.Build.0 = Release|Win32
+		{CBFEA811-A033-4A9D-A3BE-F2EDE9C7CBB4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CBFEA811-A033-4A9D-A3BE-F2EDE9C7CBB4}.Debug|Win32.Build.0 = Debug|Win32
+		{CBFEA811-A033-4A9D-A3BE-F2EDE9C7CBB4}.Release|Win32.ActiveCfg = Release|Win32
+		{CBFEA811-A033-4A9D-A3BE-F2EDE9C7CBB4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

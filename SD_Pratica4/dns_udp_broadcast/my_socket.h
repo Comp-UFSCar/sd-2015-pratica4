@@ -18,3 +18,10 @@ typedef struct
   char buf[DEFAULT_BUFLEN];
 } message;
 
+typedef struct
+{
+	char nome[30];
+	char ip[30];
+	char porta[6];
+} entrada;
+
