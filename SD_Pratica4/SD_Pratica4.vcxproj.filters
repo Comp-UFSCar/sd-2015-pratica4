@@ -18,5 +18,17 @@
     <ClInclude Include="my_socket.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="common_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="name_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

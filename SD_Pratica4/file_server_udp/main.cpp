@@ -15,14 +15,18 @@ void main(void)
 {
 	SocketParams params;
 
-	char port[10];
+	char port[6];
+	char name[30];
 
-	printf("Which port shall be used? ");
+	printf("Configuracoes do Servidor de Arquivo\n");
+	printf("NOME: ");
+	scanf("%s", &name);
+
+	printf("PORTA: ");
 	scanf("%s", &port);
 	
 	strcpy(params.port, port);
-	
-	printf("\nServer Started at port: %s\n\n", port);
+	strcpy(params.name, name);
 
 	params.family = AF_INET;
 	params.socktype = SOCK_DGRAM;

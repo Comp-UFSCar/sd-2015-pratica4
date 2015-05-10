@@ -12,15 +12,17 @@ int main(int argc, char *argv[])
 {
 	SocketParams params;
 	
+	
 	/* validate number of arguments */
-	  if (argc != 2) {
+	
+	/*if (argc != 2) {
 	    printf("Usage: %s <Broadcast IP>\n Broadcast IP address: 255.255.255.255 \n", 
 	            argv[0]);
 	    exit(1);
-	  }
+	  }*/
 	
 	strcpy(params.port, "27015");
-	params.ip= argv[1];
+	params.ip= "255.255.255.255";
 	
 	params.family = AF_UNSPEC;
 	params.socktype = SOCK_DGRAM;

@@ -2,12 +2,13 @@
 #define MY_SOCKET_H
 
 #define DEFAULT_BUFLEN 512
-
+#define LOCALHOST "127.0.0.1"
 
 typedef struct
 {
 	char* ip;            /* multicast IP address */
 	char port[6];
+	char name[30];
 	int family;
 	int socktype;
 	int protocol;

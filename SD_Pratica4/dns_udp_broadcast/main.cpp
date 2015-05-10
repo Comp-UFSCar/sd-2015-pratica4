@@ -1,6 +1,7 @@
 #include <winsock2.h>
 #include "AppObjects.h"
 #include "../my_socket.h"
+#include "../name_server.h"
 #include <stdio.h>      /* for printf() and fprintf() */
 #include <stdlib.h>     /* for atoi() */
 
@@ -11,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	SocketParams params;
 	
-	strcpy(params.port, "27015");
+	strcpy(params.port, SVNAME_PORT);
 	
 	params.family = AF_INET;
 	params.socktype = SOCK_DGRAM;
